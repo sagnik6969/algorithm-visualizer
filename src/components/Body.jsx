@@ -9,7 +9,7 @@ export default function Body(){
 
     var [size,setsize] = React.useState(25);
     var [arr,setarr] = React.useState([]);
-    var [speed,setspeed] = React.useState(0.1);
+    var [speed,setspeed] = React.useState(0.5);
 
     React.useEffect(()=>{
 

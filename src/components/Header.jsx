@@ -14,7 +14,7 @@ export default function Header() {
         </Typography>
         <IconButton
           color="inherit"
-          onClick={() => window.open("https://github.com/")}
+          onClick={() => window.open("https://github.com/sagnik6969/algorithm-visualizer/")}
         >
           <GitHubIcon />
         </IconButton>

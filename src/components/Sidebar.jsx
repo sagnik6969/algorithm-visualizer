@@ -8,7 +8,7 @@ import Speedslider from './sidebaritems/Speedslider';
 import bubblesort from './algorithms/bubblesort'
 import insertionsort from './algorithms/insertionsort'
 import margesort from './algorithms/margesort'
-
+import quicksort from './algorithms/quicksort'
 
 export default function Sidebar({arr,setsize,speed,setspeed}){
 
@@ -20,6 +20,7 @@ export default function Sidebar({arr,setsize,speed,setspeed}){
         else if(algoidx === 1) bubblesort(arr,speed);
         else if(algoidx === 2) insertionsort(arr,speed);
         else if(algoidx === 4) margesort(arr,speed);
+        else if(algoidx === 5) quicksort(arr,speed);
     }
 
 
