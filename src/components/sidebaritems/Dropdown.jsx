@@ -5,7 +5,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-export default function Dropdown({setalgoidx}) {
+export default function Dropdown({setalgoidx,disabled}) {
   // const [age, setAge] = React.useState('');
 
   const handleChange = (event) => {
@@ -16,6 +16,7 @@ export default function Dropdown({setalgoidx}) {
     <div>
       <FormControl sx={{ m: 1, minWidth: 300 }}>
         <Select
+          disabled = {disabled}
           defaultValue={'1'}
           onChange={handleChange}
           displayEmpty

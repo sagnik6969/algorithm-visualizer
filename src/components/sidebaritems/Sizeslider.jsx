@@ -2,7 +2,7 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
 import { Typography } from "@mui/material";
-export default function Sizeslider({setsize}) {
+export default function Sizeslider({setsize,disabled}) {
   return (
     <Box width={300}>
       <Typography id="input-slider" gutterBottom>
@@ -15,6 +15,7 @@ export default function Sizeslider({setsize}) {
         valueLabelDisplay="auto"
       /> */}
       <Slider
+        disabled = {disabled}
         defaultValue={25}
         min={20}
         max={70}

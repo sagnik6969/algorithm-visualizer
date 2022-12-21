@@ -27,7 +27,7 @@ async function selectionsort(values,speed){
 
                     if(values[j] < values[mn_idx]){
                     
-                      if(mn_idx != i)
+                      if(mn_idx !== i)
                             document.getElementById(ids[mn_idx]).style.backgroundColor = "rgb(0, 149, 199)";
                       
                       mn_idx = j;

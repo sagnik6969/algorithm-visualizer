@@ -12,10 +12,16 @@ import quicksort from './algorithms/quicksort'
 
 export default function Sidebar({arr,setsize,speed,setspeed}){
 
-    var [algoidx,setalgoidx] = React.useState(1);
     
+
+    var [algoidx,setalgoidx] = React.useState(1);
+    var [disabled,setdisabled] = React.useState(false);
    
-    function handleClick(){
+    function handleClick(e){
+        
+        // e.target.disabled = true;
+        setdisabled(true);
+
         if(algoidx === 3) selectionsort(arr,speed);
         else if(algoidx === 1) bubblesort(arr,speed);
         else if(algoidx === 2) insertionsort(arr,speed);
@@ -26,10 +32,11 @@ export default function Sidebar({arr,setsize,speed,setspeed}){
 
     return (
         <div className="sidebar">
-        <Dropdown setalgoidx = {setalgoidx}/>
-        <Sizeslider setsize = {setsize}/>
-        <Speedslider setspeed = {setspeed}/>
-        <Button variant="contained" onClick={handleClick}>play</Button>
+        <Dropdown setalgoidx = {setalgoidx} disabled = {disabled}/>
+        <Sizeslider setsize = {setsize} disabled = {disabled}/>
+        <Speedslider setspeed = {setspeed} disabled = {disabled}/>
+        <Button disabled = {disabled} variant="contained" onClick={handleClick}>play</Button>
+        {/* <Button variant="contained" onClick={handleClick}>reset</Button> */}
         </div>
     )
 }

@@ -45,8 +45,8 @@ export default async function bubblesort(values,speed){
                 
     }
 
-    console.log(values);
-    console.log(ids);
+    // console.log(values);
+    // console.log(ids);
 
 }
 
