@@ -2,6 +2,8 @@
 
 This project is a web-based tool for visualizing how different sorting algorithms work. It is built using ReactJS and allows users to see the step-by-step process of how the algorithms sort an array of numbers.
 
+[https://algorithm-visualizer-b7h9.onrender.com/](https://algorithm-visualizer-b7h9.onrender.com/)
+
 ## Features
 
 - Visualize the sorting process for several different algorithms, including bubble sort, selection sort, and merge sort

@@ -6,7 +6,7 @@ export default function Sizeslider({setsize,disabled}) {
   return (
     <Box width={300}>
       <Typography id="input-slider" gutterBottom>
-        Range:
+        Length:
       </Typography>
       {/* <Slider
         size="small"
@@ -18,7 +18,7 @@ export default function Sizeslider({setsize,disabled}) {
         disabled = {disabled}
         defaultValue={25}
         min={20}
-        max={70}
+        max={80}
         aria-label="Default"
         valueLabelDisplay="auto"
         onChange={(e) => setsize(e.target.value)}

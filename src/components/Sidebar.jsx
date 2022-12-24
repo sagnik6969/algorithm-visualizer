@@ -23,6 +23,12 @@ export default function Sidebar({
   var [algoidx, setalgoidx] = React.useState(1);
   var [disabled, setdisabled] = React.useState(false);
   var [alradySorted, setalradysorted] = React.useState(false);
+
+  React.useEffect(()=>{
+
+    setalradysorted(false)
+
+  },[arr])
 //   const notify = () => toast("Wow so easy!");
 //   notify();
   async function handleClick(e) {
