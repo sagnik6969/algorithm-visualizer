@@ -16,6 +16,10 @@ export default function Body() {
       temparr.push(Math.floor(Math.random() * 300));
     setarr(temparr);
     // setalradysorted(false);
+    // for(let i = 0 ; i < size ; i++){
+    //     document.getElementById(i).style.transform = `translateX(${i*10}px)`; 
+    // }
+
   }, [size, generateRandom]);
 
   return (

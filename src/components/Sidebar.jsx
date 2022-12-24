@@ -30,7 +30,8 @@ export default function Sidebar({
   async function handleClick(e) {
 
     if(alradySorted){
-        toast("Array is alrady Sorted");
+        toast.info("Array is alrady Sorted");
+        
         // console.log("alrady sorted");
         return;
     }
