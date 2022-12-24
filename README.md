@@ -15,13 +15,13 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/)
-- [NPM](https://www.npmjs.com/) (comes with Node.js)
+- [YARN](https://yarnpkg.com/)
 
 ### Installing
 
 1. Clone the repository onto your local machine
 2. Navigate to the project directory in your terminal
-3. Run `npm install` to install the necessary dependencies
+3. Run `yarn install` to install the necessary dependencies
 4. Run `npm start` to start the development server
 5. Open your browser and navigate to `http://localhost:3000` to view the application
 <!-- 
