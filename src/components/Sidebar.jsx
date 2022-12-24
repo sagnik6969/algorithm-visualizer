@@ -19,8 +19,6 @@ export default function Sidebar({
   setsize,
   speed,
   setspeed,
-  alradySorted,
-  setalradysorted,
 }) {
   var [algoidx, setalgoidx] = React.useState(1);
   var [disabled, setdisabled] = React.useState(false);
