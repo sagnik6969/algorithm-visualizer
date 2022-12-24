@@ -22,7 +22,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the repository onto your local machine
 2. Navigate to the project directory in your terminal
 3. Run `yarn install` to install the necessary dependencies
-4. Run `npm start` to start the development server
+4. Run `yarn start` to start the development server
 5. Open your browser and navigate to `http://localhost:3000` to view the application
 <!-- 
 ### Running the tests
