@@ -9,6 +9,7 @@ import bubblesort from "./algorithms/bubblesort";
 import insertionsort from "./algorithms/insertionsort";
 import margesort from "./algorithms/margesort";
 import quicksort from "./algorithms/quicksort";
+import heapsort from "./algorithms/heapsort";
 //import React from 'react';
 import {  toast } from 'react-toastify';
 
@@ -47,6 +48,7 @@ export default function Sidebar({
     else if (algoidx === 2) await insertionsort(arr, speed);
     else if (algoidx === 4) await margesort(arr, speed);
     else if (algoidx === 5) await quicksort(arr, speed);
+    else if (algoidx === 6) await heapsort(arr,speed);
 
     setalradysorted(true)
 

@@ -28,6 +28,7 @@ export default function Dropdown({setalgoidx,disabled}) {
           <MenuItem value={3}>Selection Sort</MenuItem>
           <MenuItem value={4}>Marge Sort</MenuItem>
           <MenuItem value={5}>Quick Sort</MenuItem>
+          <MenuItem value={6}>Heap Sort</MenuItem>
 
         </Select>
       </FormControl>
